@@ -13,7 +13,7 @@ export default function App() {
     setResult(null)
 
     try {
-      const res = await fetch('https://deine-backend-url/extract-session', {
+      const res = await fetch('https://insta-caption-scraper.onrender.com/extract-session', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ username, password, links: [link] })
