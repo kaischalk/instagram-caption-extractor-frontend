@@ -1,6 +1,7 @@
 {
-  "name": "insta-caption-extractor",
+  "name": "instagram-caption-extractor-frontend",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,10 +9,10 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.17.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
     "vite": "^4.5.0"
   }
 }
